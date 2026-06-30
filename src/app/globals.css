@@ -471,6 +471,20 @@ li {
   line-height: 1.7;
 }
 
+.hero-description-large {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+  max-width: 740px;
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+.hero-description-large strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
 .hero-ctas {
   display: flex;
   gap: 1rem;

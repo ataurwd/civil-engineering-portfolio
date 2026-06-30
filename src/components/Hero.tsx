@@ -6,21 +6,14 @@ export default function Hero() {
   return (
     <section id="hero" className="hero-section">
       <div className="container hero-container animate-fade-in">
-        <div className="badge">Civil Technology Professional</div>
+        <div className="badge">WELCOME TO MY PORTFOLIO</div>
         
         <h1 className="hero-title">
-          MD. REDOYAN ISLAM
+          Building Strong Foundations with Precision & Excellence
         </h1>
         
-        <p className="hero-subtitle">
-          Local Consultant Engineer specializing in the integrated supervision of 
-          <strong> Structural</strong>, <strong>Architectural</strong>, and <strong>MEP</strong> systems.
-        </p>
-        
-        <p className="hero-description">
-          Dedicated to driving project success through technical precision, meticulous material inspections, 
-          disciplined blueprint monitoring, and proactive contractor coordination. Expert in on-site safety, 
-          quality control, and progress reporting.
+        <p className="hero-description-large">
+          I'm <strong>Md. Redoyan Islam</strong>, a Civil Engineering professional specializing in Structural, Architectural, and MEP project supervision. I help ensure construction projects are completed safely, efficiently, and according to the highest engineering standards through quality inspections, contractor coordination, and technical oversight.
         </p>
         
         <div className="hero-ctas">
@@ -32,7 +25,7 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Clean, Minimalist Stats Section without Icons */}
+        {/* Clean, Minimalist Stats Section */}
         <div className="hero-stats-card">
           <div className="stat-item-premium">
             <div className="stat-details">
