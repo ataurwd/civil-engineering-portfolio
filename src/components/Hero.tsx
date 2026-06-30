@@ -7,18 +7,22 @@ export default function Hero() {
     <section id="hero" className="hero-section">
       <div className="container hero-container animate-fade-in">
         <div className="badge">Civil Technology Professional</div>
+        
         <h1 className="hero-title">
           MD. REDOYAN ISLAM
         </h1>
+        
         <p className="hero-subtitle">
           Local Consultant Engineer specializing in the integrated supervision of 
           <strong> Structural</strong>, <strong>Architectural</strong>, and <strong>MEP</strong> systems.
         </p>
+        
         <p className="hero-description">
           Dedicated to driving project success through technical precision, meticulous material inspections, 
           disciplined blueprint monitoring, and proactive contractor coordination. Expert in on-site safety, 
           quality control, and progress reporting.
         </p>
+        
         <div className="hero-ctas">
           <a href="#experience" className="btn btn-primary">
             View Experience
@@ -28,20 +32,31 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="hero-stats">
-          <div className="stat-item">
-            <span className="stat-num">Banbeis</span>
-            <span className="stat-label">Key Government Project</span>
+        {/* Clean, Minimalist Stats Section without Icons */}
+        <div className="hero-stats-card">
+          <div className="stat-item-premium">
+            <div className="stat-details">
+              <span className="stat-num-premium">Banbeis</span>
+              <span className="stat-label-premium">Key Government Project</span>
+            </div>
           </div>
-          <div className="stat-divider"></div>
-          <div className="stat-item">
-            <span className="stat-num">BTEB</span>
-            <span className="stat-label">Diploma in Civil Eng.</span>
+          
+          <div className="stat-divider-premium"></div>
+          
+          <div className="stat-item-premium">
+            <div className="stat-details">
+              <span className="stat-num-premium">BTEB</span>
+              <span className="stat-label-premium">Diploma in Civil Eng.</span>
+            </div>
           </div>
-          <div className="stat-divider"></div>
-          <div className="stat-item">
-            <span className="stat-num">RHD</span>
-            <span className="stat-label">Roads & Highway Intern</span>
+          
+          <div className="stat-divider-premium"></div>
+          
+          <div className="stat-item-premium">
+            <div className="stat-details">
+              <span className="stat-num-premium">RHD</span>
+              <span className="stat-label-premium">Roads & Highway Intern</span>
+            </div>
           </div>
         </div>
       </div>

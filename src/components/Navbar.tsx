@@ -34,6 +34,7 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <nav className="desktop-menu">
           <a href="#hero" className="nav-link">Home</a>
+          <a href="#about" className="nav-link">About</a>
           <a href="#experience" className="nav-link">Experience</a>
           <a href="#education" className="nav-link">Education</a>
           <a href="#skills" className="nav-link">Skills</a>
@@ -77,6 +78,7 @@ export default function Navbar() {
       <div className={`mobile-menu ${isMobileMenuOpen ? "open" : ""}`}>
         <nav className="mobile-nav">
           <a href="#hero" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Home</a>
+          <a href="#about" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>About</a>
           <a href="#experience" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Experience</a>
           <a href="#education" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Education</a>
           <a href="#skills" className="mobile-nav-link" onClick={() => setIsMobileMenuOpen(false)}>Skills</a>
